@@ -1,6 +1,6 @@
-# Name : ALTRIN CETRICK
-# Reg No : 212222060015
-# EXP1: 4 Bit Adder functionality verification
+# Name : GOPINATHAN P
+# Reg No : 212222060068
+# EXP-1: 4 Bit Adder functionality verification
 
 ## Aim:
 To write a verilog code for 4bit adder and verify the functionality using Test bench.
@@ -73,7 +73,7 @@ Developed by: Register Number*/
       (The path of cshrc could vary depending on the installation destination)
       
 	After this you can see the window like below 
-![Screenshot 2024-10-03 164035](https://github.com/user-attachments/assets/00d90163-a7cb-496d-a70b-2bc4f8e4af41)
+![Screenshot (89)](https://github.com/user-attachments/assets/3e83ef34-06c5-42dd-8d85-8d0fa325d657)
 
 
 ### Fig 3:Invoke the Cadence Environment
@@ -90,7 +90,8 @@ or
 ```
 
 	It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
-![Screenshot 2024-10-04 155944](https://github.com/user-attachments/assets/64936a8b-105b-41c4-ac3d-ea83063fe16b)
+![Screenshot (91)](https://github.com/user-attachments/assets/a11fa9cc-371a-4b80-8381-97c0cfbd98d8)
+
 
 
 
@@ -100,7 +101,7 @@ or
 
 	Click the cds.lib file and save the file by clicking on Save option 
 
-![Screenshot 2024-10-03 164107](https://github.com/user-attachments/assets/df7662f9-1604-43b3-9c64-b4d701a1cf55)
+![Screenshot (92)](https://github.com/user-attachments/assets/d75b3d86-4c08-4752-9eaf-a81202e94b2e)
 
 
 
@@ -114,7 +115,7 @@ or
 
 •	A Click “OK” in the “nclaunch: Open Design Directory” window as shown in below figure 
 
-![image](https://github.com/user-attachments/assets/781b297a-11e9-4140-89c5-ee3b0d15bbd4)
+![Screenshot (93)](https://github.com/user-attachments/assets/d422c87d-109d-4a21-ab62-3712a8b01719)
 
 ### Fig 6: Selection of Don’t include any libraries
 
@@ -129,7 +130,7 @@ or
 
 
 ### Fig 7: Nclaunch Window
-![Screenshot 2024-10-03 164140](https://github.com/user-attachments/assets/65594e35-66b1-4bab-a1a2-653e589b6ab2)
+![Screenshot (94)](https://github.com/user-attachments/assets/9524b300-d1bf-49d5-8052-7193c983ded7)
 
 
 
@@ -157,7 +158,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 	Select the test bench and compile it. It will come under worklib. Under Worklib you can see the module and test-bench. 
 
 	The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located. It contains statements that map logical library names to their physical directory paths. For this Design, you will define a library called “worklib”
-![Screenshot 2024-10-03 164233](https://github.com/user-attachments/assets/14aae49e-8529-4e11-a53c-b189872a22ab)
+![Screenshot (95)](https://github.com/user-attachments/assets/e5319bbe-f1b3-48ff-b437-dd6b5880cd59)
 
 
 ## Step 2: Elaboration:– To check the port connections in hierarchical design 
@@ -176,7 +177,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 	After elaboration the file will come under snapshot. Select the test bench and elaborate it.
 
 ### Fig 9: Elaboration Launch Option
-![Screenshot 2024-10-03 164158](https://github.com/user-attachments/assets/9b1f90a9-8700-4c42-afd0-b53a4c4baf5c)
+![Screenshot (96)](https://github.com/user-attachments/assets/12d9b153-c44a-4e48-b1b8-da665a9d6208)
+
 
 
 
@@ -192,15 +194,16 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 ### Fig 10: Design Browser window for simulation
 
-![Screenshot 2024-10-03 164233](https://github.com/user-attachments/assets/178357e0-e7c3-40f3-ba44-aa76eaa9db93)
+![Screenshot (97)](https://github.com/user-attachments/assets/0e73353d-7011-480e-b74a-ca28e42b5cac)
 
 
 ### Fig 11: Launching Simulation Waveform WindowSimulation Waveform Window
 
-![Screenshot 2024-10-03 164250](https://github.com/user-attachments/assets/34bc2871-e02e-416f-b9fa-b500dc6b0162)
+![Screenshot (98)](https://github.com/user-attachments/assets/a5e7fe8d-0936-4ea7-bc4e-fbf606d862e1)
+
 
 ### Fig 12: Simulation Waveform Window
-![Screenshot 2024-10-03 164256](https://github.com/user-attachments/assets/4be4c3f9-c221-403b-bd36-924db495656d)
+![Screenshot (99)](https://github.com/user-attachments/assets/5ac09e67-c8ce-4978-ae0e-6a8afce75c52)
 
 
 
